@@ -13,3 +13,5 @@ State Capitals Quiz
 Uses an array to store states and capitals in order to quiz users.
 Includes program to retrieve state capitals via a hasm map.
 
+Truck Routing Algorithm
+Uses an algorithm to plan efficient truck routes based on nearest neighbor principles, taking into account deadlines.
