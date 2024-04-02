@@ -7,6 +7,7 @@ Welcome to my portfolio repository! This repository contains a collection of pro
 
 Dod Breed Pairing System
 Uses machine learning to calculate cosine score and pair users with preferred dog breed based on preferences.
+Includes data visualization generators.
 
 Political Party Survey
 Uses a matrix system to store responses and predict users' political party. Improves with multiple usages.
