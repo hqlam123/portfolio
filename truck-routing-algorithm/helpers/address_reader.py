@@ -1,9 +1,11 @@
 import csv
+import os
 
 class AddressReader:
     def __init__(self):
         # hard coded filepath
-        file_path = 'resources/addresses_CSV.csv'  # Hardcoded file path
+        current_dir = os.getcwd()
+        file_path = current_dir + '/truck-routing-algorithm/resources/addresses_CSV.csv'  # Hardcoded file path
         self.addresses = self.read_address_csv(file_path)
 
     def read_address_csv(self, file_path):

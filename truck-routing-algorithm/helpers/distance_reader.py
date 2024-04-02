@@ -1,9 +1,11 @@
 import csv
+import os
 
 class DistanceMatrix:
     def __init__(self):
         # hardcoded file path
-        file_path = 'resources/distances_CSV.csv'
+        current_dir = os.getcwd()
+        file_path = current_dir + '/truck-routing-algorithm/resources/distances_CSV.csv'
 
         self.buildings = []
         self.distances = []

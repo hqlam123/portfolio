@@ -1,8 +1,11 @@
 from datetime import datetime, timedelta, time
 import csv
+import os
 
 class PackageHashTable:
-    def __init__(self, size=40, csv_file_path='resources/packages_CSV.csv'): # hardcoded filepath
+    current_dir = os.getcwd()
+    
+    def __init__(self, size=40, csv_file_path=current_dir + '/truck-routing-algorithm/resources/packages_CSV.csv'): # hardcoded filepath
         self.size = size
         self.table = [None] * size
         self.csv_file_path = csv_file_path
